@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8">
+    <link rel='stylesheet' href='style.css'>
+    <title>Survey Form</title>
+  </head>
+  <body>
+	<div class="header">
+		<h1 id='title'>Motivations & Visions</h1>
+		<p id='description'>Thank you for helping us understand why people start learning to code.</p>
+	</div>
+
+  <form id="survey-form">
+	<div class="details container">
+		
+		<label id="name-label">Name<input type="text" id="name" required placeholder='Marius'></label>
+		<label id='email-label'>Email<input type="email" id="email" required placeholder='example@mail.com'></label>
+		<label id='number-label'>Age<input type="number" id="number" min='15' max='99' placeholder='25'></label>
+	</div>
+	<h2></h2>
+	<div class="choices container">
+		<div class="proficiency">
+			<label for='lvl'>Your proficiency:</label>
+				<select name ='lvl' id='dropdown'>
+					<option value='beginner'>Beginner</option>
+					<option value='intermediate'>Intermediate</option>
+					<option value='advanced'>Advanced</option>
+				</select>
+		</div>
+		<div class="radio">
+			<label class="heading">With which end in mind are you learning to code?</label>
+				<label><input class="inline" type='radio' name='choice' value='I want to freelance'>I want to freelance</label>
+				<label><input class="inline" type='radio' name='choice' value='I want to work Full-time'>I want to work Full-time</label>
+				<label><input class="inline" type='radio' name='choice' value='I want to found my own Tech Startup'>I want to found my own Tech Startup</label>
+		</div>
+		<div class="checkbox">
+			<label class="heading" for="">Which specification peaks your interest?</label>
+				<label for=""><input class="inline" type="checkbox" value="Web" id="">Web Development</label>
+				<label for=""><input class="inline" type="checkbox" value="AI" id="">AI</label>
+				<label for=""><input class="inline" type="checkbox" value="Data" id="">Data Science</label>
+				<label for=""><input class="inline" type="checkbox" value="Cybersecurity" id="Cybersecurity">Cybersecurity</label>
+				<label for=""><input class="inline" type="checkbox" value="Mobile" id="">Mobile application development</label>
+		</div>
+		<label for="" class="heading">Any additional comments?</label>
+		<textarea></textarea>
+		<input class="button" type='submit' id='submit'>
+	</div>
+	
+  </form>
+  </body>
