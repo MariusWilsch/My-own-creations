@@ -15,6 +15,54 @@ header h1, header p	{
 	color: white;
 }
 
+.img-div p	{
+	position: relative;
+	top: -18px;
+	color: white;
+	background-color: rgba(0, 0, 255, 0.573);
+	display: inline;
+	border-radius: 0 10px 0 10px;
+	padding: 2px;
+}
+
+.tribute-info	{
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+}
+.tribute-info h3	{
+	margin-bottom: 10px;
+}
+.tribute-info ul	{
+	width: 10%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.tribute-info ul li	{
+	text-align: left;
+}
+.tribute-info h2	{
+	margin-top: 50px 0 20px 0;
+}
+
+
+
+.quote {
+	margin-bottom: 20px;
+}
+.quote blockquote {
+	border-left: 4px solid white;
+	border-radius: 1px;
+	display: inline;
+	padding-left: 5px;
+}
+.quote p {
+	position: absolute;
+	margin-top: 5px;
+	left: 115px;
+}
+
+
 
 
 
